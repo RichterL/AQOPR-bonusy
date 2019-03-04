@@ -27,7 +27,7 @@ Bonusové příklady z AQOPR
   - [ ] vytvořte dynamické pole s pomocí struktury a funkce realloc.
 
 ### Třídy
-- [ ] Deklarujte třídu reprezentující obdelník s následujícími podrobnostmi:
+- [x] Deklarujte třídu reprezentující obdelník s následujícími podrobnostmi:
   - vytvořte konstruktor s délkou a šírkou obdelníka,
   - vytvořte členské funkce pro výpočet obsahu a obvodu,
   - dále definujte pole obdelníků a vytvořte kód, který vypíše rozměry největšího obdelníku v poli.
