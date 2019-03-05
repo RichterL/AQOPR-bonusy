@@ -31,13 +31,13 @@ Bonusové příklady z AQOPR
   - vytvořte konstruktor s délkou a šírkou obdelníka,
   - vytvořte členské funkce pro výpočet obsahu a obvodu,
   - dále definujte pole obdelníků a vytvořte kód, který vypíše rozměry největšího obdelníku v poli.
-- [ ] Deklarujte třídu reprezentující komplexní číslo s následujícími podrobnostmi:
+- [x] Deklarujte třídu reprezentující komplexní číslo s následujícími podrobnostmi:
   - členské proměnné (reálná a imaginární část) budou private,
   - vytvořte konstruktor s reálnou i imaginární složkou,
   - vytvořte členskou funkci, která vrátí absolutní hodnotu komplexního čísla,
   - definujte pole komplexních čísel na zásobníku,
   - najděte komplexní číslo s největší absolutní hodnotou a vypište jeho komplexní a reálnou část.
-- [ ] Deklarujte třídu reprezetující zásobník s následujícími funkcemi:
+- [x] Deklarujte třídu reprezetující zásobník s následujícími funkcemi:
   - konstruktor s kapacitou zásobníku,
   - funkci pro vložení nového prvku (push),
   - funkci která vrátí hodnotu posledního prvku a odebere ho ze zásobníku (pop).
