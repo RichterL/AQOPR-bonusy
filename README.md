@@ -23,7 +23,7 @@ Bonusové příklady z AQOPR
   - [x] vytvořte funkci, které předáte pole a ona vrátí největší prvek v poli,
   - [x] vytvořte funkci, které předáte pole a ona vrátí strukturu obsahující nejmenší, největší a průměrný prvek,
   - [x] vytvořte funkci, která prohodí hodnoty proměnných v poli (swap),
-  - [ ] vytvořte program pro součet a násobení matic s proměnnými rozměry s využitím pole ukazatelů a alokací paměti na haldě pomocí funkce malloc,
+  - [x] vytvořte program pro součet a násobení matic s proměnnými rozměry s využitím pole ukazatelů a alokací paměti na haldě pomocí funkce malloc,
   - [ ] vytvořte dynamické pole s pomocí struktury a funkce realloc.
 
 ### Třídy
@@ -43,14 +43,14 @@ Bonusové příklady z AQOPR
   - funkci která vrátí hodnotu posledního prvku a odebere ho ze zásobníku (pop).
 
 ### Vybrané vlastnosti (features) C++
-- [ ] Deklarujte třídu reprezetující zásobník obsahující konstruktor s kapacitou zásobníku, funkci pro vložení nového prvku (push) a funkci která vrátí hodnotu posledního prvku a odebere ho ze zásobníku (pop), a využijte následující vlastnosti C++:
+- [x] Deklarujte třídu reprezetující zásobník obsahující konstruktor s kapacitou zásobníku, funkci pro vložení nového prvku (push) a funkci která vrátí hodnotu posledního prvku a odebere ho ze zásobníku (pop), a využijte následující vlastnosti C++:
   - třídu vložte do namespace,
   - data pro zásobník alokujte pomocí operátoru new a uvolněte pomocí operátoru delete,
   - Vyberte jednu z následujících implementací
   - kapacitu deklarujte jako konstantní členskou proměnnou a inicializujte v konstruktoru pomocí constructor inicializer list,
   - pro členské proměnné inicializované konstantami využíjte in class inicializaci,
   - vytvořte ukázkový konzolový program s využitím objektů std::cout a std::cin.
-- [ ] Deklarujte třídu Student v namespace utb, kdy student bude mít jméno a příjmení a výsledky tří testů. Využijte std::cout a případně std::cin a třídu std::string. Dále:
+- [x] Deklarujte třídu Student v namespace utb, kdy student bude mít jméno a příjmení a výsledky tří testů. Využijte std::cout a případně std::cin a třídu std::string. Dále:
   - členské proměnné budou skryté (private) a k proměnným přistupujte pomocí veřejných (public) členských funkcí,
   - vytvořte členskou funkci, která vrátí true, pokud student získal zápočet, to znamená že z každého ze tří testů získal alespoň 15 bodů,
   - vytvořte členskou funkci, která vrátí průměr bodů ze tří testů studenta,
