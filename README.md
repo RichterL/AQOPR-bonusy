@@ -73,7 +73,7 @@ vsechny kody zkompilovany a funkcni pod Linux a teoreticky i pod Win (netestovan
 
 ### Dědičnost a překývání virtuálních členských funkcí
 - [x] Vytvořte **konzolovou aplikaci** pro správu geometrických útvaru viz. wireframe
-- [ ] Vytvořte **konzolovou aplikaci** pro správu farmy zvířátek:
+- [x] Vytvořte **konzolovou aplikaci** pro správu farmy zvířátek:
   - [ ] Nejdříve vytvořte verzi s jednou farmou viz wireframe farma
     - Přidání nového zvířátka do farmy
     - Výpis indexu a jména všech zvířátek ve farmě
