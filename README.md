@@ -1,6 +1,14 @@
 # AQOPR-bonusy
 Bonusové příklady z AQOPR
 
+Pouzite nastroje a prostredi:
+Linux Mint 19
+Sublime Text 3
+GCC a G++
+git
+
+vsechny kody zkompilovany a funkcni pod Linux a teoreticky i pod Win (netestovano). Pro program utvary a farma1 ze sekce Dedicnost a prekryvani virtualnich funkci byla vyuzita funkce system() k volani akce zavisle na systemu - system("clear") resp. system("CLS") v zavislosti na detekovanem systemu. Pokud system nebylo mozno rozpoznat, mazani konzole se neprovadi.
+
 ## Příklady k procvičování
 
 ### Opakování C
@@ -61,10 +69,10 @@ Bonusové příklady z AQOPR
   - seřaďte studenty dle získaných bodů vzestupně a vypište jména, příjmení a průměrné body všech seřazených studentů.
 
 ### Dědičnost
-- [ ] Navrhněte třídy pro automobilové součástky s použitím dědičnosti, zvolte minimálně 3 součástky a kód který by měli společné vložte do rodičovské třídy. Navrhněte dvě třídy pro automobilové součástky pro demonstraci kompozice.
+- [x] Navrhněte třídy pro automobilové součástky s použitím dědičnosti, zvolte minimálně 3 součástky a kód který by měli společné vložte do rodičovské třídy. Navrhněte dvě třídy pro automobilové součástky pro demonstraci kompozice.
 
 ### Dědičnost a překývání virtuálních členských funkcí
-- [ ] Vytvořte **konzolovou aplikaci** pro správu geometrických útvaru viz. wireframe
+- [x] Vytvořte **konzolovou aplikaci** pro správu geometrických útvaru viz. wireframe
 - [ ] Vytvořte **konzolovou aplikaci** pro správu farmy zvířátek:
   - [ ] Nejdříve vytvořte verzi s jednou farmou viz wireframe farma
     - Přidání nového zvířátka do farmy
